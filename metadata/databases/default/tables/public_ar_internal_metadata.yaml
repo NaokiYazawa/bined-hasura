@@ -1,0 +1,3 @@
+table:
+  name: ar_internal_metadata
+  schema: public
