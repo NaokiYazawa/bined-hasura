@@ -19,7 +19,6 @@ jobs:
         env:
           HASURA_ENDPOINT: ${{ secrets.HASURA_ENDPOINT }}
           HASURA_ADMIN_SECRET: ${{ secrets.HASURA_ADMIN_SECRET }}
-          HASURA_WORKDIR: bined-hasura
           HASURA_ENGINE_VERSION: v2.30.1
 
       - name: Apply hasura metadata
@@ -29,5 +28,4 @@ jobs:
         env:
           HASURA_ENDPOINT: ${{ secrets.HASURA_ENDPOINT }}
           HASURA_ADMIN_SECRET: ${{ secrets.HASURA_ADMIN_SECRET }}
-          HASURA_WORKDIR: bined-hasura
           HASURA_ENGINE_VERSION: v2.30.1
